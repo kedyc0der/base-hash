@@ -7,7 +7,7 @@ youtube : kedy coder
 """)
 
 kedycoder = input("1 or 2 ? -> ")
-if keducoder == "1" : 
+if kedycoder == "1" : 
     message = input("String => ")
     message_bytes = message.encode('ascii')
     base64_bytes = base64.b64encode(message_bytes)
